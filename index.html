@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <script>
+      const remote = require('electron').remote;
+      function closeThisWin(){
+    var window = remote.getCurrentWindow();
+    window.close();  
+}
+      </script>
     <meta charset="UTF-8">
-    <title>Hello World! CHANGES!A</title>
+    <title>Main Window</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+      <button id="close-btn" onclick="closeThisWin()">Close</button>
+      <button id="dragbt" style="-webkit-app-region: drag;"> Drag This Window</button>
   </body>
 </html>
