@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <script>
-      const remote = require('electron').remote;
-      function closeThisWin(){
-    var window = remote.getCurrentWindow();
-    window.close();  
-}
-      </script>
+      <script src="index.js"> </script>
     <meta charset="UTF-8">
     <title>Main Window</title>
   </head>
   <body>
       <button id="close-btn" onclick="closeThisWin()">Close</button>
+      <button id="close-btn" onclick="openNewWindow('index.html')">Close</button>
       <button id="dragbt" style="-webkit-app-region: drag;"> Drag This Window</button>
   </body>
 </html>
