@@ -19,11 +19,11 @@ app.on('activate', () => {
 })
 
 function createWindow () { 
-  win = new BrowserWindow({width: 800, height: 600, frame: false})
+  win = new BrowserWindow({width: 800, height: 600, frame: false, useContentSize:true})
   windowPath('index')
   //Open the DevTools.
   win.webContents.openDevTools()
-
+    
   win.on('closed', () => {
     win = null
   })
@@ -36,7 +36,7 @@ function createWindow () {
     win2.on('closed', () => {
     win2 = null
   })
-}
+}*/
 
 function windowPath(name){
     win.loadURL(url.format({
@@ -44,5 +44,5 @@ function windowPath(name){
     protocol: 'file:',
     slashes: true
   }))
-}*/
+}
 

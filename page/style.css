@@ -1,0 +1,140 @@
+body {
+	background-color: #FFFFFF;
+	color: #666666;
+	font-family: tahoma;
+	font-size: 11px;
+	margin: 20px;
+}
+p {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+}
+h1 {
+	color: #ff8100;
+	font-size: 1.8em; font-family: tahoma, verdana, arial, helvetica, sans-serif; font-weight:normal;
+}
+h2 {
+	color: #666666;
+	font-size: 1.2em; font-family: tahoma, verdana, arial, helvetica, sans-serif; font-weight:normal;
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0F75B5
+}
+
+td {
+	font-size: 11px; color: #666666; font-family: tahoma; text-align:left;
+}
+a {
+    color: #666666;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+
+    font-size: 11px;
+    text-decoration: none;
+	font-weight: normal;
+}
+a:hover {text-decoration: underline}
+.textolink {
+	font-weight: normal; font-size: 11px; color: #0F75B5; font-family: tahoma; text-decoration: none
+}
+input {
+	border: #bfbdb8 1px solid; font-family: tahoma; background-color: #ffffff; font-size: 11px; 
+}
+input[type="radio"] {
+	border: 0px !important;
+}
+textarea {
+	border-right: #bfbdb8 1px solid; border-top: #bfbdb8 1px solid; font-size: 11px; border-left: #bfbdb8 1px solid; color: #666666; border-bottom: #bfbdb8 1px solid; font-family: tahoma; background-color: #ffffff
+}
+select {
+	font-size: 11px; color: #666666; font-family: tahoma; background-color: #ffffff
+}
+.titulo {
+	font-size: 14px; color: #666666; font-family: tahoma; background-color: #f8f8f8
+}
+.border {
+	border: solid 1px #ccc;
+	padding: 5px;
+}
+.tituloDestaque {
+	color: #666666;
+	background-color:#F6F6F6;
+	padding: 3px;
+}
+#tabelaFiltros td{
+	color: #666666;
+	background-color:#F6F6F6;
+	padding: 3px;
+}
+#ui-datepicker-div{	
+	position: absolute;
+	z-index: 1;
+}
+.bgcell {
+	background-color: #FF8100;
+    border: 1px solid #FF8100 !important;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 38px;
+    padding: 3px;
+}
+.bgtable {
+    background-color: #FF8100;
+    border: 1px solid #FF8100 !important;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 3px;
+	text-align:center;
+}
+.numCell {
+	font-size: 11px; color: #666666; font-family: tahoma; text-align:right;	
+}
+.totaltable  {
+    font-weight: bold;
+    padding: 3px;
+	background-color: #EFEFEF;
+}
+.resultado td{
+	font-size: 11px;
+	border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+table tr td a {
+	color: #666666;
+	font-size: 11px;
+}
+.bord tr td{ border: 1px solid; padding: 3px; } 
+.bord{ width: 100%; border-collapse: collapse;} 
+.exibePergunta{
+	color:#0083BF;
+}
+#headersearchtemplate {
+    color: #ff8100;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: normal;
+}
+#searchInputs  {
+    color: #666666;
+    float: left;
+    font-size: 11px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+.button {
+    background-image: url("../../img/exibicao_perguntas_respostas/back_button.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    color: #ffffff;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 23px;
+    margin: 3px;
+    width: 100px;
+}

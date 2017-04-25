@@ -7,7 +7,7 @@ function closeThisWin(){
 }
 
 function openNewWindow(url){
-    window.open(url,"newwindow_main"," width=400, height=400");
+    window.open(url,"newwindow_main"," useContentSize:true");
 }
 
 
