@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <script src="index.js"> </script>
-    <meta charset="UTF-8">
-    <title>Main Window</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+          <script src="index.js"> </script>
+        <meta charset="UTF-8">
+        <title>Main Window</title>
   </head>
-  <body>
-      <button id="close-btn" onclick="closeThisWin()">Close</button>
-      <button id="close-btn" onclick="openNewWindow('index.html')">Close</button>
-      <button id="dragbt" style="-webkit-app-region: drag;"> Drag This Window</button>
+  <body style = "background-color:black">
+    <ul style = "background-color:black">
+      <li><button id="close-btn" onclick="closeThisWin()" ><img src="mapa_icms.png" height="35" onMouseOver = "this.src='mapa_icms_s.png'" onmouseout="this.src='mapa_icms.png'"/></button></li>
+      <li><button id="open-btn2" onclick="openNewWindow('page/menu.html')">Open</button></li>
+      <li><button id="dragbt" style="-webkit-app-region: drag;"> Drag This Window</button></li>
+    </ul>
   </body>
 </html>
